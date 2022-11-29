@@ -1,0 +1,39 @@
+.sidebar {
+    display: grid;
+    grid-template-rows: 30% 35% 35%;
+    grid-template-areas: "."
+                         "one"
+                         "two";
+
+    height: 100%;
+
+    background: #020203;
+    color: white;
+    text-align: center;
+}
+
+.sidebar_icons_menu {
+    grid-area: one;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sidebar_icon {
+    width: 32px;
+    height: 32px;
+
+    padding: 16px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.copyright {
+    grid-area: two;
+    font-size: 12px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    position: relative;
+    left: calc(50% - 1.7rem);
+}

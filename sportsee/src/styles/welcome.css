@@ -1,0 +1,18 @@
+.welcome_display {
+    margin: 50px 0 0 50px;
+}
+
+.welcome_display h1 {
+    margin: 0;
+    font-size: 48px;
+    grid-area: welcome;
+}
+
+.user_name {
+    color: #FF0101;
+}
+
+.welcome_congratulations {
+    font-size: 18px;
+    font-weight: 400;
+}
